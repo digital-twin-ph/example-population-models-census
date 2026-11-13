@@ -1,0 +1,35 @@
+Population models beside a census
+=================================
+
+This repository's own files are CC0 1.0 (LICENSE). The data it carries and the data it reads keep their own terms.
+
+Census, Botswana: Statistics Botswana, Population and Housing Census 2022: Population Distribution, Structure and
+          Density in Botswana, March 2024, Table 1. Transcribed by this project into
+          data/botswana_census_2022_districts.csv, with each district's name in the boundary file added beside it.
+          Terms of use (statsbots.org.bw/terms-use): the information may be used provided Statistics Botswana is
+          acknowledged as the source of the basic data, and any analysis is stated to result from the user's own
+          processing. The comparison here is this project's own processing of the data.
+
+Census, Rwanda: National Institute of Statistics of Rwanda (NISR), Fifth Rwanda Population and Housing Census 2022,
+          Main Indicators, Table 1 (PHC5-2022_Main_Indicators.xlsx, 581,274 bytes, updated 4 February 2025). The 30
+          district counts are in data/rwanda_census_2022_districts.csv; the workbook is not redistributed. NO TERMS OF
+          USE could be read: NISR's site returned server errors on 2026-11-13. Used, credited to NISR, by the
+          practitioner's decision of that day; to be revisited if NISR's terms say otherwise.
+
+Boundaries, Botswana: geoBoundaries gbHumanitarian ADM2, release 9469f09, from UNFPA via HDX, 2021, CC BY 3.0 IGO.
+          28 units, one per census district. Carried inside the project.
+
+Boundaries, Rwanda: geoBoundaries gbOpen ADM2, release 9469f09, from Open Data Rwanda, 2012, CC BY 4.0. 30 units.
+          Carried inside the project.
+
+WorldPop: Bondarenko M. et al. 2025. Constrained estimates of 2015-2030 total number of people per grid square,
+          R2025A version v1. WorldPop, University of Southampton. doi:10.5258/SOTON/WP00839. CC BY 4.0.
+
+GRID3:    Gadiaga A. et al. 2025. Gridded 2025 population estimates for sub-Saharan Africa constrained to GRID3
+          settlement extents. WorldPop, University of Southampton. doi:10.5258/SOTON/WP00851. CC BY 4.0.
+
+GHS-POP:  Schiavina M., Freire S., Carioli A., MacManus K. (2023): GHS-POP R2023A, GHS population grid multitemporal
+          (1975-2030). European Commission, Joint Research Centre. doi:10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE.
+          CC BY 4.0.
+
+None of the rasters is carried here: each is read where it is published, or from a file downloaded from there.
