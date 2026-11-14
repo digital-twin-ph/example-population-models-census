@@ -25,9 +25,10 @@ over settlements, so at the census districts their shares are the census's own c
 WorldPop's. **GHS-POP is the independent comparison:** the JRC builds it another way, and it puts people differently.
 A share is not a count, a model is not a census, and 2022 is not 2025.
 
-**Side by side.** Each workflow ends in a map of the four sources' shares in four panels, two by two, on one scale: a
-shade is the same share in every panel. Side by side shows where the sources differ; it does not say which is right.
-Needs Fieldwork 0.113.0.
+**Side by side.** Each workflow ends in two maps of panels on one scale, so a shade is the same number in every panel:
+the four sources' shares by district, two by two; and the three grids' cells in a row, as people per km² of each cell's
+area, drawn at no more than 1,000 cells a side. Side by side shows where the sources differ; it does not say which is
+right. Needs Fieldwork 0.113.0.
 
 ## Before opening it: the population files
 
