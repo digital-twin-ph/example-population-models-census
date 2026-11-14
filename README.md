@@ -40,8 +40,9 @@ figures are slightly low (5.75% and 12.07% from unrounded shares).
 smallest and largest value, how many cells hold people and their share, its area in km² and people per km², each shown
 as a table per source.
 
-**Notes.** The project carries the practitioner's notes on what is compared, how, and what it cannot show.
-Needs Fieldwork 0.114.0.
+**Notes.** The project carries the practitioner's notes on what is compared, how, and what it cannot show. Each step
+says what it did in Methods, and each source what it is: the two censuses, and WorldPop's, GRID3's and GHS-POP's
+citations with their DOIs, which References lists. Needs Fieldwork 0.116.0 for the sources in References.
 
 ## Before opening it: the population files
 
