@@ -30,6 +30,19 @@ the four sources' shares by district, two by two; and the three grids' cells in 
 area, drawn at no more than 1,000 cells a side. Side by side shows where the sources differ; it does not say which is
 right. Needs Fieldwork 0.113.0.
 
+**How far each model is from the census.** Each workflow also takes each model's district share minus the census's,
+in percentage points, drawn per model, and adds up the differences above zero: the share of the country's people a
+model places in a different district from the census. Rwanda, run end to end: WorldPop 0.0%, GRID3 0.0%, GHS-POP 5.6%.
+Botswana, from the same files' district totals: 0.1%, 0.1% and 11.9%. The shares are held to one decimal place, so these
+figures are slightly low (5.75% and 12.07% from unrounded shares).
+
+**Zonal statistics.** Each raster step also gives, for every district, its cells' mean, median, standard deviation,
+smallest and largest value, how many cells hold people and their share, its area in km² and people per km², each shown
+as a table per source.
+
+**Notes.** The project carries the practitioner's notes on what is compared, how, and what it cannot show.
+Needs Fieldwork 0.114.0.
+
 ## Before opening it: the population files
 
 The project carries where each raster came from, not its cells: a country's window from each source is hundreds of
