@@ -8,8 +8,16 @@ settled) and **Rwanda** (30 districts, small and dense).
 | File | What it is |
 | --- | --- |
 | `fieldwork-project.json.gz` | The Fieldwork project: *Where does each source put Rwanda's people?* and *Where does each source put Botswana's people?* |
-| `data/botswana_census_2022_districts.csv` | Botswana's 2022 census by district: the district as the census writes it, its name in the boundary file, its population. Statistics Botswana |
-| `data/rwanda_census_2022_districts.csv` | Rwanda's 2022 census by district: its name and population. NISR |
+| `data/botswana_census_2022_districts.csv` | Botswana's 2022 census by district: the district as the census writes it, its name in the boundary file, its population. Statistics Botswana. The pairing census-tables now carries; the workflows no longer read this file |
+| `data/rwanda_census_2022_districts.csv` | Rwanda's 2022 census by district: its name and population. NISR. The workflows no longer read this file |
+
+**The census is read as a workflow anyone builds would read it** (Fieldwork 0.154.0): through Tabular data's **Census
+tables**, each country's districts from [census-tables](https://github.com/digital-twin-ph/census-tables) with the name
+geoBoundaries gives each district, read wide with the total named *population* and its unit, *persons*, from the data
+dictionary. **Append rows** lines the census's names up under the models' `name` by itself, every name matching:
+Rwanda's 30 are the census's own; 8 of Botswana's 28 are spelled differently there (*Delta*, *Ngamiland Delta*). Until
+then the workflows read the files below, prepared to fit, so they never met what a census in its own spelling meets.
+The figures' titles say {country} and {unit}, which each workflow's study area states.
 
 ## What it finds
 
